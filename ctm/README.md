@@ -1,5 +1,5 @@
-<h2 align="center"> MAO _ MAIL </h2>
-<h3>VERSION : 1.2 </h3>
+<h2 align="center"> CTM </h2>
+<h3>VERSION : 1.1 </h3>
 
 
 **A SIMPLE TOOL KIT FOR MAKE TEMPMAIL WITH TERMINAL.**
@@ -24,14 +24,14 @@ apt install git -y
 
 pip install requests
 
-git clone https://github.com/mao2116/mmail
+git clone https://github.com/rxvxrsx/ctm
 
 ```
 
 ### One Click Installation :
 
 ```
-apt update -y ; apt install python -y ; apt install git -y ; pip install requests ; git clone https://github.com/mao2116/mmail
+apt update -y ; apt install python -y ; apt install git -y ; pip install requests ; git clone https://github.com/rxvxrsx/ctm
 
 ```
 
@@ -41,9 +41,9 @@ apt update -y ; apt install python -y ; apt install git -y ; pip install request
 ### FOR RUN :
 
 ```
-cd mmail
+cd ctm
 
-python mmail.py
+python ctm.py
 
 ```
 
