@@ -33,9 +33,6 @@ apt update -y ; apt install python -y ; apt install git -y ; pip install request
 
 ```
 
-
-<br><a href="#"><img src="https://raw.githubusercontent.com/mao2116/test/main/BLOG/PIC/IMG_20220101_130140.jpg"></a><br>
-
 ### FOR RUN :
 
 ```
