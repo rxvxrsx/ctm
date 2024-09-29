@@ -491,8 +491,8 @@ def __init__():
               main()
         else:
           exit("[ ! ] API DOWN [ ! ]")
-      # else:
-      #   os.system("bash core/up_ctm.sh")
+      else:
+      	os.system("bash core/up_ctm.sh")
     else:
       exit("[ ! ] TOOL IS OFF [ ! ]")
   except Exception as mm:
