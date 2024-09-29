@@ -2,7 +2,7 @@
 <h3>VERSION : 1.0 </h3>
 
 
-**A SIMPLE TOOL KIT FOR MAKE TEMPMAIL WITH TERMINAL.**
+**TEMPMAIL WITH TERMINAL.**
 
 [![Author](https://img.shields.io/badge/Author-rxvxrsx-blue)](https://github.com/rxvxrsx)
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
