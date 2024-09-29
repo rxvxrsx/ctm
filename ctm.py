@@ -97,7 +97,7 @@ def historylog():
   print(manuhome)
   for num , mail in enumerate(read):
     print("{BBlack}[ {BGreen}{rxvxrsx} {BBlack}] {BWhite}".format(rxvxrsx=num+1,BBlack=BBlack,BGreen=BGreen,BYellow=BYellow,BWhite=BWhite)+mail["email"])
-  print(f"{BBlack}[{BPurple} 0. {BBlack}]{BPurple} BACK MAIN MANU {BBlack}[ {BGreen}../{BBlack} ]")  
+  print(f"\n{BBlack}[{BYellow} 0. {BBlack}]{BYellow} BACK MAIN MANU {BBlack}[ {BGreen}../{BBlack} ]")  
   in__=int(input(f"\n{BBlack}>>>> {BWhite}"))
   if num+1 >= in__ and in__ != 0:
     
