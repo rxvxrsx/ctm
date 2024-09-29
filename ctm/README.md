@@ -1,5 +1,5 @@
 <h2 align="center"> CTM </h2>
-<h3>VERSION : 1.1 </h3>
+<h3>VERSION : 1.0 </h3>
 
 
 **A SIMPLE TOOL KIT FOR MAKE TEMPMAIL WITH TERMINAL.**
