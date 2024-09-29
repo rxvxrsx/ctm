@@ -8,8 +8,6 @@
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
 [![Opensource](https://img.shields.io/badge/Open%20Source-Yes-green)](#)
 
-**THE MAIN AUTHOR OF THIS CODE MAO2116**
-
 #### REQUIREMENTS
 * `PYTHON 3.9.X+`
 * `REQUESTS`
