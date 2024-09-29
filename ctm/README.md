@@ -42,14 +42,4 @@ python ctm.py
 
 ```
 
-<b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mmail/main/LICENSE">MIT LICENSE</a></b>
-
-<div align="center">
-<b> GET US IN CLICK </b><br><br>
-<a href="https://github.com/mao2116">
-  <img width="50px" height="50px" src="https://raw.githubusercontent.com/fh-rabbi/Hack-Box/main/images/git.png">
-</a>
-<a href="https://www.facebook.com/mao2116/">
-  <img width="50px" height="50px" src="https://raw.githubusercontent.com/fh-rabbi/Hack-Box/main/images/fb.png"><!I JUST USE A PIC FROM FH-RABBI >
-</a>
-</div>  
+<b>Copyright (c) 2024 rxvxrsx</b>
