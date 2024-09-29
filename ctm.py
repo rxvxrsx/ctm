@@ -129,7 +129,7 @@ def historylog():
     main2()
 
 def makedic(mail,token,digit):
-  dic="{\"email\":\""+mail+"\",\"token\":\""+token+"\",\"digit\":\""+digit+"\"}"
+  dic="\n{\"email\":\""+mail+"\",\"token\":\""+token+"\",\"digit\":\""+digit+"\"}"
   return dic
 def randomemail():
   randomtype=random.randint(10,15)
