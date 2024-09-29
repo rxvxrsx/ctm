@@ -4,7 +4,7 @@
 
 **A SIMPLE TOOL KIT FOR MAKE TEMPMAIL WITH TERMINAL.**
 
-[![Author](https://img.shields.io/badge/Author-MAO2116-blue)](https://github.com/rxvxrsx)
+[![Author](https://img.shields.io/badge/Author-rxvxrsx-blue)](https://github.com/rxvxrsx)
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
 [![Opensource](https://img.shields.io/badge/Open%20Source-Yes-green)](#)
 
