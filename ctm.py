@@ -201,7 +201,7 @@ def makedic(mail,token,digit):
   dic="\n{\"email\":\""+mail+"\",\"token\":\""+token+"\",\"digit\":\""+digit+"\"}"
   return dic
 def randomemail():
-  randomtype=random.randint(10,15)
+  randomtype=random.randint(10,99)
   randomemai_l={
 	"min_name_length":randomtype,
 	"max_name_length":randomtype
