@@ -587,7 +587,7 @@ def __init__():
         else:
           exit("[ ! ] API DOWN [ ! ]")
       else:
-        os.system("bash core/up_mmail.sh")
+        os.system("bash core/up_ctm.sh")
     else:
       exit("[ ! ] TOOL IS OFF [ ! ]")
   except Exception as mm:
