@@ -581,15 +581,15 @@ def __init__():
     print(loginpromt)
     x=json.loads(rg("https://raw.githubusercontent.com/rxvxrsx/CTM-API/main/api/ctm-api.json",headers=headergit).text)
     if x["condition"] == "on":
-      if x["product"]=="CTM":
-        if x["code"]=="CYFER":
-          if x["version"]==currenteversion:
-            if x["api"] == "running":
-              main()
+      if x["version"]==currenteversion:
+        if x["api"] == "running":
+          main()
         else:
           exit("[ ! ] API DOWN [ ! ]")
       else:
-        os.system("bash core/up_ctm.sh")
+        os.system("bash core/up_mmail.sh")
+    else:
+      exit("[ ! ] TOOL IS OFF [ ! ]")
   except Exception as mm:
     exit(mm)
 
