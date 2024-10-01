@@ -28,7 +28,7 @@ update(){
   cd .. ;
   rm -rf ctm ;
   git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1 ;
-  python ctm
+  python ctm.py
   
 
 
