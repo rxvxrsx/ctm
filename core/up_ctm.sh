@@ -26,7 +26,6 @@ update(){
   apt install git -y ; 
   pip install requests ; 
   git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1 ;
-  python3 ctm.py
   
 
 
@@ -35,9 +34,9 @@ update(){
   echo
   echo -e "${BBlack}[ ${BPurple}# ${BBlack}]${BPurple} THANKS FOR UPDATE ME."
   echo
-  echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} NOW TYPE ${BBlack}[ ${BGreen}! ${BBlack}]${BGreen}"
+  echo -e "${BBlack}[ ${BYellow}! ${BBlack}]${BYellow} NOW TYPE ${BBlack}[ ${BYellow}! ${BBlack}]"
   echo
-  echo -e "#${BGreen} python ctm.py ${BBlack}| ${BGreen}python3 ctm.py${BReset}" ;
+  echo -e "${BBlack}[ ${BGreen}* ${BBlack}]${BGreen} python ctm.py ${BBlack}| ${BGreen}python3 ctm.py${BReset}" ;
   sleep 3
 
 
