@@ -15,7 +15,7 @@ BWhite='\033[1;37m'       # White
 BReset='\033[0;00m'
 
 update(){
-  echo -e "\n${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} A UPDATE AVAILABLE"
+  echo -e "${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} A UPDATE AVAILABLE"
   sleep 0.1
   echo -e "${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} CTM IS UPDATING"
   sleep 0.1
