@@ -42,7 +42,6 @@ update(){
 
 }
 update
-echo 
 echo
 exit
 
