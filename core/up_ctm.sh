@@ -15,11 +15,11 @@ BWhite='\033[1;37m'       # White
 Reset='\033[0;00m'
 
 update(){
-  echo -e "${BPurple} A UPDATE AVAILABLE"
+  echo -e "\n${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} A UPDATE AVAILABLE"
   sleep 0.1
-  echo -e "${BYellow} CTM IS UPDATING"
+  echo -e "${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} CTM IS UPDATING"
   sleep 0.1
-  echo -e "${BBlack} PLEASE WAIT..." 
+  echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} PLEASE WAIT...\n" 
   cd ; 
   rm -rf ctm ; 
   apt update ; 
@@ -31,9 +31,9 @@ update(){
 
 
   echo
-  echo -e "${BGreen} NOW YOUR TOOL UPDATED."
+  echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} NOW YOUR TOOL UPDATED." 
   echo
-  echo -e "${BPurple} THANKS FOR UPDATE ME."
+  echo -e "${BBlack}[ ${BPurple}# ${BBlack}]${BPurple} THANKS FOR UPDATE ME."
   echo
   echo -e "${BCyan}<==> NOW TYPE <==>"
   echo
