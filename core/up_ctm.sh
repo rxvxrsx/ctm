@@ -37,7 +37,7 @@ update(){
   echo
   echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} NOW TYPE ${BBlack}[ ${BGreen}! ${BBlack}]${BGreen}"
   echo
-  echo -e "${BGreen} python ctm.py ${BBlack}| ${BGreen}python3 ctm.py${BReset}" ;
+  echo -e "#${BGreen} python ctm.py ${BBlack}| ${BGreen}python3 ctm.py${BReset}" ;
   sleep 3
 
 
