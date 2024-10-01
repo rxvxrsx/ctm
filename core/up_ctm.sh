@@ -20,13 +20,12 @@ update(){
   echo -e "${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} CTM IS UPDATING"
   sleep 0.1
   echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} PLEASE WAIT...\n" 
-  cd ; 
-  rm -rf ctm ; 
   apt update ; 
   apt install python3 -y ; 
   apt install git -y ; 
   pip install requests ; 
-  git clone https://github.com/rxvxrsx/ctm
+  cd .. && rm -rf ctm && git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1 ;
+  cd .. && cd ctm && python ctm.py ;
   
 
 
@@ -34,10 +33,6 @@ update(){
   echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} NOW YOUR TOOL UPDATED." 
   echo
   echo -e "${BBlack}[ ${BPurple}# ${BBlack}]${BPurple} THANKS FOR UPDATE ME."
-  echo
-  echo -e "${BCyan}<==> NOW TYPE <==>"
-  echo
-  echo -e "${BBlack} cd ; cd ctm ; python ctm.py${Reset}" ;
   sleep 1
 
 
