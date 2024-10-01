@@ -27,7 +27,8 @@ update(){
   pip install requests ; 
   cd .. ;
   rm -rf ctm ;
-  git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1
+  git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1 ;
+  cd ctm
   
 
 
