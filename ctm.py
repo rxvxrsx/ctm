@@ -64,7 +64,7 @@ def coustomnewdomains():
           if validate_email_name(email_name):
               break  # Valid email name
           else:
-              print(f"\n{BBlack}[{BRed} !{BBlack} ]{BRed} INVALID EMAIL NAME. {BYellow}Please use only {BBlack}[ {BGreen}a-zA-Z0-9_.- {BBlack}] {BBlack}[{BRed} !{BBlack} ]")
+              print(f"\n{BBlack}[{BRed} !{BBlack} ]{BRed} INVALID EMAIL NAME. {BYellow}Please use only {BBlack}[ {BGreen}a-zA-Z0-9_.- {BBlack}]")
               print(f"{BBlack}[{BRed} !{BBlack} ]{BRed} The email name must be between 6 and 30 characters.")  # เพิ่มข้อความแสดงความยาว
               print(f"{BBlack}[{BRed} !{BBlack} ]{BRed} Special characters other than ._- are not allowed.")  # เพิ่มข้อความแสดงอักขระพิเศษ
       else:
