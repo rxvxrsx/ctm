@@ -587,7 +587,6 @@ def __init__():
         else:
           exit("[ ! ] API DOWN [ ! ]")
       else:
-	print(f"{BBlack}[{BRed} !{BBlack} ] VERSION MISMATCH: OLD VERSION {currenteversion}, CURRENT VERSION IS {x['version']}")
         os.system("bash core/up_ctm.sh")
     else:
       exit("[ ! ] TOOL IS OFF [ ! ]")
