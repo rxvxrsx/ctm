@@ -20,11 +20,14 @@ update(){
   echo -e "${BBlack}[ ${BCyan}# ${BBlack}]${BCyan} CTM IS UPDATING"
   sleep 0.1
   echo -e "${BBlack}[ ${BGreen}! ${BBlack}]${BGreen} PLEASE WAIT...\n" 
+  rm -rf ctm ;
   apt update ; 
   apt install python3 -y ; 
   apt install git -y ; 
   pip install requests ; 
-  cd .. && rm -rf ctm && git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1
+  cd .. ;
+  rm -rf ctm ;
+  git clone https://github.com/rxvxrsx/ctm > /dev/null 2>&1
   
 
 
