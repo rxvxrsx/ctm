@@ -16,7 +16,7 @@ rs=requests.session()
 rg=rs.get
 rxvxrsxmailex=""
 mailmes=""
-currenteversion="v1.1"
+currenteversion="v1.3"
 def logop(z):
   for word in z + '\n':
      sys.stdout.write(word)
