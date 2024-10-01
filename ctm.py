@@ -26,7 +26,7 @@ def rxvxrsxgit():
   try:
     os.system("xdg-open https://github.com/rxvxrsx/")
   except OSError:
-      print("xdg-open Unable to use, currently using webbrowser instead.")
+      print("xdg-open failed, using webbrowser instead.")
       webbrowser.open("https://github.com/rxvxrsx/")
 def ext():
   exit("\n{BBlack}[{BRed} !{BBlack} ] {BGreen}THANKS FOR USING {BBlack}[{BRed} !{BBlack} ]\n".format(BBlack=BBlack,BRed=BRed,BGreen=BGreen))
